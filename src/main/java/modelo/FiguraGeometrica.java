@@ -8,20 +8,13 @@ package modelo;
  *
  * @author Daniel Alejandro
  */
-public class FiguraGeometrica {
-    public FiguraGeometrica (){
-        
+public abstract class FiguraGeometrica {
+
+    public FiguraGeometrica() {
+
     }
-    
-    public double calcularArea(){
-        return 0.0;
-    }
-    
-    public void mover (double deltaX, double deltaY){
-        
-    }
-    
-    public double getAltura(){
-        return 0.0;
-    }
+
+    public abstract double calcularArea();
+
+    public abstract void mover(double deltaX, double deltaY);
 }
